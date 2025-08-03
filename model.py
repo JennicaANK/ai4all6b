@@ -117,7 +117,6 @@ print("Headline:", headline)
 print("Prediction:", predict_price_direction(headline))
 
 
-To test
 headline = "Netflix stock surges after record-breaking earnings report"
 print("Headline:", headline)
 print("Prediction:", predict_price_direction(headline))
