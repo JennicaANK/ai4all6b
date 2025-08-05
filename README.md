@@ -17,10 +17,10 @@ This project investigates whether news sentiment and keyword patterns can accura
 ---
 
 ##  Key Results  
-- 📰 Processed 10,000+ headlines and aligned them with FAANG stock movements  
-- 🔍 Identified key biases in financial news (sentiment ambiguity, lag effects, non-financial influences)  
-- 📈 Achieved over **70% test accuracy** using XGBoost for binary classification (PriceUp = 1/-1)  
-- 📊 Created real-time, user-friendly prediction interface with Streamlit deployment
+-  Processed 10,000+ headlines and aligned them with FAANG stock movements  
+-  Identified key biases in financial news (sentiment ambiguity, lag effects, non-financial influences)  
+-  Achieved over **70% test accuracy** using XGBoost for binary classification (PriceUp = 1/-1)  
+-  Created real-time, user-friendly prediction interface with Streamlit deployment
 
 ---
 
@@ -31,14 +31,14 @@ This project investigates whether news sentiment and keyword patterns can accura
 
 ---
 
-## 📂 Data Sources  
-- 📈 [Kaggle Dataset by Kaushik Suresh](https://www.kaggle.com/datasets/kaushiksuresh147/faang-stock-data) – Historical FAANG stock prices  
-- 🗞️ [Kaggle Dataset by Skywalker290](https://www.kaggle.com/datasets/saife245/news-headlines-dataset-for-stock-sentiment-analysis) – Financial news articles  
-- 🧾 [FNSPID Financial News Dataset (GitHub)](https://github.com/gdmarmerola/FNSPID) – Supplementary news dataset with target signals
+##  Data Sources  
+-  [Kaggle Dataset by Kaushik Suresh](https://www.kaggle.com/datasets/kaushiksuresh147/faang-stock-data) – Historical FAANG stock prices  
+-  [Kaggle Dataset by Skywalker290](https://www.kaggle.com/datasets/saife245/news-headlines-dataset-for-stock-sentiment-analysis) – Financial news articles  
+-  [FNSPID Financial News Dataset (GitHub)](https://github.com/gdmarmerola/FNSPID) – Supplementary news dataset with target signals
 
 ---
 
-## 💻 Technologies Used  
+##  Technologies Used  
 - Python  
 - pandas, NumPy  
 - FinBERT (Transformers via HuggingFace)  
@@ -48,7 +48,7 @@ This project investigates whether news sentiment and keyword patterns can accura
 
 ---
 
-## 🧪 Success Criteria  
+##  Success Criteria  
 1. **Predictive Accuracy**  
    - ≥ 70% accuracy in predicting FAANG stock up/down direction  
    - Metrics: Accuracy, Recall, F1 Score  
